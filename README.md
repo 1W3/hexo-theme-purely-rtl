@@ -5,7 +5,7 @@
 - Font Vazir
 - Persian language
 
-{% Screenshot.png %}
+<img src="Screenshot.png" alt="screenshot" />
 
 ### Install:
 1- clone repo
