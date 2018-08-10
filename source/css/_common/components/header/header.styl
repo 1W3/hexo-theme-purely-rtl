@@ -14,7 +14,10 @@
 
 /* Logo Section */
 #logo {
-	font: normal 40px 'Electrolize',Verdana;
+	font: normal 40px 'Vazir' ,Verdana;
+	direction: rtl;
+	text-align: right;
+	float: right;
 
 	&:hover {
 		color: $line-light;
@@ -22,9 +25,12 @@
 }
 .description {
 	font-size: 14px;
-	line-height: 28px;
 	display: inline-block;
-  margin-left: 50px;
+  margin-right: -200px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  margin-top: 65px;
 
   +mobile() {
     display: block;
@@ -44,7 +50,7 @@
 	height: 50px;
 	padding-top: 50px;
 	border-bottom: 1px solid $line-dark;
-	float: left;
+	float: right;
 
   +mobile() {
     height: auto;
@@ -59,7 +65,7 @@
 
   ul, li {
     list-style: none;
-    float: left;
+    float: right;
     margin: 0;
     padding: 0;
 
@@ -74,7 +80,7 @@
     display: inline-block;
     line-height: 50px;
     margin-right: 30px;
-    padding: 0 40px;
+    padding: 0 5px;
     border-color: $line-dark;
     font-size: 16px;
 
@@ -103,7 +109,7 @@
 
 /* Search section */
 #search {
-	float: right;
+	float: left;
 
   input {
     width: 100px;
@@ -112,6 +118,8 @@
     border: 0;
     outline: none;
     color: $body-font;
+    direction: rtl;
+    text-align: right;
 
 
     &:focus {

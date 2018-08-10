@@ -25,9 +25,9 @@
 		padding: 20px 0 20px 20px;
 		border-bottom: 1px solid $gray-300;
 		line-height: 1.25;
-
 		line-transition();
 		transition-property: border-color;
+		direction: rtl;
 	}
 
 	&:hover {
@@ -46,11 +46,12 @@
 
 .post-content {
 	font-size: 16px;
-	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+	font-family: 'Vazir' , -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 	text-align: justify;
 	line-height: 1.7;
 	word-wrap: break-word;
 	padding: 20px 0 0 20px;
+	direction: rtl;
 
 
 	em a {
@@ -83,6 +84,7 @@
 		padding: 1em 2em 1em 4em;
 		
 		background: $gray-100;
+		direction: rtl;
 
 		&::before {
 			content: '\f10d';
@@ -109,6 +111,7 @@
 		border: 1px solid $gray-250;
 		box-sizing: border-box;
 		max-width: 100%;
+		direction: rtl;
 
 		line-transition();
 		transition-property: border-color;
@@ -170,6 +173,10 @@
 
 // Post
 
+.post-title {
+    direction: rtl;
+}
+
 .post-detail {
 	.post-content {
 		padding: 0;
@@ -184,6 +191,7 @@
 		margin-top: 10px;
 		padding-top: 10px;
 		border-top: 1px dotted $line-dark;
+		direction: rtl;
 	}
 
 	.post-tag-list {
