@@ -1,0 +1,23 @@
+title:
+  archive: آرشیو
+  category: دسته بندی
+  tag: برچسب
+
+meta:
+  author: نویسنده
+  date: تاریخ
+  categories: دسته بندی
+  tags: برچسب ها
+  no_categories: بدون دسته بندی
+
+menu:
+  home: خانه
+  archives: آرشیو
+  categories: دسته بندی ها
+  tags: برچسب ها
+  about: درباره
+  search: جستجو
+  sitemap: نقشه سایت
+pagination:
+  prev: قبلی
+  next: بعدی
