@@ -1,16 +1,18 @@
 {
   "name": "purely",
-  "homepage": "https://github.com/geekrainy/hexo-theme-purely",
+  "homepage": "https://github.com/1w3/hexo-theme-purely-rtl",
   "authors": [
-    "Rainy <geekrainy@gmail.com>"
+    "Hila <6harai9@gmail.com>"
   ],
-  "description": "Purely theme for Hexo",
+  "description": "Purely RTL theme for Hexo",
   "main": "",
   "keywords": [
     "hexo",
     "theme",
     "purely",
-    "geekrainy"
+    "RTL",
+    "hexo-rtl",
+    "persian"
   ],
   "license": "MIT",
   "ignore": [
@@ -23,6 +25,8 @@
   ],
   "dependencies": {
     "font-awesome": "fontawesome#^4.7.0",
-    "fancybox": "^3.1.25"
+    "fancybox": "^3.1.25",
+    "font-Vazir": "v19"
+
   }
 }
