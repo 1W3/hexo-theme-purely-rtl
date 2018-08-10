@@ -19,7 +19,7 @@ fancybox: true
 disqus_shortname:
 ## Gitment
 gitment:
-  github_user:
+  github_user: 
   github_repo:
   client_id:
   client_secret:
